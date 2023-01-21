@@ -1,0 +1,99 @@
+{
+  "identificador":null,
+  "identificadorLocacao":"128",
+  "codigoRequisicao":"000123",
+  "codigoRequisicaoDevolucao":"000124",
+  "setorRequisitado":{
+    "identificador":"00A0000001",
+    "descricao":"ALMOXARIFADO ( LKL)"
+  },
+  "setorRequisitante":{
+    "identificador":"00A000001B",
+    "descricao":"EXPEDIÇÃO"
+  },
+  "codigoLocacao":"000127",
+  "dataReferencia":"2020-05-27T00:00:00.000",
+  "descricao":"Teste da rotina ADICIONAR TODOS da tela de Medição.",
+  "cliente":{
+    "nome":"OIL STATES IND. DO BRASIL INST. MARITIMAS LTDA",
+    "CPFouCNPJ":"02.430.711/0002-02",
+    "identificador":"00A000002X",
+    "nomeCurto": "OIL STATES"
+  },
+  "itens":[
+    {
+        "identificador":null,
+        "identificadorItemLocacao":"325",
+        "categoria":"EQUIPAMENTO",
+        "dataFinalLocacao":"2020-06-04T00:00:00.000",
+        "dataInicialLocacao":"2020-06-03T00:00:00.000",
+        "quantidadeDiarias":1,
+        "descricao":"",
+        "produto":{
+          "identificador":"00A00000HO",
+          "nome":"BOMBA PORT. MANUAL 2 VIAS;CILINDRO SENT.ÚNICO; 1L",
+          "codigo":"000619"
+        },
+        "quantidadeDisponivel":9,
+        "quantidadePedida":10,
+        "quantidadeRequisitada":1,
+        "quantidadeARequisitar":0,
+        "atendidoComCorte":true,
+        "baixas": [
+          {
+            "codigoRequisicao":"000111",
+            "dataDaBaixa":"2021-03-01",
+            "identificadorRequisicaoItemBaixa":"00A0000C11",
+            "quantidade":1,
+            "quantidadeADevolver":1,
+            "quantidadeExpedida":0,
+            "lote": null,
+            "serie": {
+              "identificador":"00A0000023",
+              "codigo":"ABC123",
+              "dataValidade":null,
+              "observacao":"",
+              "tipo":"SERIE"
+            }
+          }
+        ]
+     },
+     {
+        "identificador":null,
+        "identificadorItemLocacao":"329",
+        "categoria":"MATERIAL",
+        "dataFinalLocacao":"2020-06-06T00:00:00.000",
+        "dataInicialLocacao":"2020-06-01T00:00:00.000",
+        "quantidadeDiarias":1,
+        "descricao":"",
+        "produto":{
+          "identificador":"00A000000E",
+          "nome":"LINK TORQUE; TWH120N; SEXT. 100MM",
+          "codigo":"000010"
+        },
+        "quantidadeDisponivel":3,
+        "quantidadePedida":10,
+        "quantidadeRequisitada":1,
+        "quantidadeARequisitar":0,
+        "atendidoComCorte":true,
+        "baixas": [
+          {
+            "codigoRequisicao":"000111",
+            "dataDaBaixa":"2021-03-01",
+            "identificadorRequisicaoItemBaixa":"00A0000012",
+            "quantidade":1,
+            "quantidadeADevolver":0,
+            "quantidadeExpedida":0,
+            "lote": null,
+            "serie": {
+              "identificador":"00A0000022",
+              "codigo":"CBA321",
+              "dataValidade":null,
+              "observacao":"",
+              "tipo":"SERIE"
+            }
+          }
+        ]
+     }
+  ]
+}

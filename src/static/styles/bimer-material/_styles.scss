@@ -1,0 +1,70 @@
+.bloco-desabilitado {
+  opacity: 0.7;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.v-application, .theme--light.v-application {
+  background-color: $white;
+}
+
+.label-codigo-orcamento {
+  color: $cor_primaria;
+  font-size: 12px;
+}
+
+.codigo-orcamento {
+  color: $cor_primaria;
+  font-size: 15px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.display-block {
+  display: block;
+}
+
+.v-dialog > .v-card > .v-card__title {
+  padding: 16px 15px 10px;
+}
+
+.tipo-numero {
+  text-align: right;
+}
+
+.contorno-cabecalho {
+  background: linear-gradient(#CFD8DC) no-repeat;
+  background-size: 100% 3px;
+  background-color: $white;
+  padding-top: 3px;
+  border-bottom: 2px solid $bg_grid;
+  border-left: 2px solid $bg_grid;
+  border-right: 2px solid $bg_grid;
+  border-radius: 10px;
+  height: 170px;
+  padding: 10px 20px;
+}
+
+.contorno-grafico-cabecalho {
+  background: linear-gradient(#CFD8DC) no-repeat;
+  background-size: 100% 3px;
+  background-color: $white;
+  padding-top: 8px;
+  border-bottom: 2px solid $bg_grid;
+  border-left: 2px solid $bg_grid;
+  border-right: 2px solid $bg_grid;
+  border-radius: 10px;
+  height: 170px;
+}
+
+.largura-igual-conteudo {
+  max-width: fit-content;
+}
+
+.pesquisa-externa-grid {
+  padding-top: 7px;
+}

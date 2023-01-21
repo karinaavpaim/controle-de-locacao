@@ -1,0 +1,7 @@
+'use strict'
+const TIPOS_REQUISICAO = {
+    REQUISICAO: "REQUISICAO",
+    DEVOLUCAO: "DEVOLUCAO"
+}
+
+export { TIPOS_REQUISICAO }

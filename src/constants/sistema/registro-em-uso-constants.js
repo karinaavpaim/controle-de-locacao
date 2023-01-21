@@ -1,0 +1,7 @@
+const ENTIDADES = {
+  ORCAMENTO: "ORCAMENTO"
+};
+
+export {
+  ENTIDADES
+}

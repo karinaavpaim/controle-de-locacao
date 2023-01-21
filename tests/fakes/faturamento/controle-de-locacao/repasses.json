@@ -1,0 +1,17 @@
+{
+    "aliquotaFaturamento": 200,
+    "aliquotaDuplicata": 0,
+    "pessoaPrincipal": "Sim",
+    "pessoa": {
+        "identificador":"00A000001C",
+        "codigo":"000027",
+        "codigoNome":"000027 - ARMAZEM OFFSHORE DE MACAE COMERCIAL E IMPORTADORA",
+        "nome":"ARMAZEM OFFSHORE DE MACAE COMERCIAL E IMPORTADORA",
+        "categorias":[
+            {
+                "nome":"Fornecedor",
+                "identificador":"0000000006"
+            }
+        ]
+    }
+  }

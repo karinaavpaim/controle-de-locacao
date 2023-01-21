@@ -1,0 +1,2238 @@
+[
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.01",
+        "codigo": "000002",
+        "codigoNome": "000002 - A VISTA",
+        "identificador": "00A0000004",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "A VISTA",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01",
+        "codigo": "000001",
+        "codigoNome": "000001 - A RECEBER",
+        "identificador": "00A0000003",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "A RECEBER",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "SINTETICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.06",
+        "codigo": "000003",
+        "codigoNome": "000003 - 00/30",
+        "identificador": "00A0000005",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "00/30",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02",
+        "codigo": "000004",
+        "codigoNome": "000004 - A PAGAR",
+        "identificador": "00A0000007",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "A PAGAR",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "SINTETICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.01",
+        "codigo": "000005",
+        "codigoNome": "000005 - A VISTA",
+        "identificador": "00A0000008",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "A VISTA",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.02",
+        "codigo": "000006",
+        "codigoNome": "000006 - 30 DIAS",
+        "identificador": "00A0000009",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.03",
+        "codigo": "000007",
+        "codigoNome": "000007 - 30/60 DIAS",
+        "identificador": "00A000000A",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/60 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.04",
+        "codigo": "000008",
+        "codigoNome": "000008 - 30/60/90 DIAS",
+        "identificador": "00A000000B",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/60/90 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.05",
+        "codigo": "000009",
+        "codigoNome": "000009 - 21 DIAS",
+        "identificador": "00A000000G",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "21 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.06",
+        "codigo": "000010",
+        "codigoNome": "000010 - 28 DIAS",
+        "identificador": "00A000000I",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.07",
+        "codigo": "000011",
+        "codigoNome": "000011 - 28/56 DIAS",
+        "identificador": "00A000000L",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/56 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.08",
+        "codigo": "000012",
+        "codigoNome": "000012 - 28/35/42/49 DIAS",
+        "identificador": "00A000000N",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/35/42/49 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.09",
+        "codigo": "000013",
+        "codigoNome": "000013 - 28/45/56 DIAS",
+        "identificador": "00A000000Q",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/45/56 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.02",
+        "codigo": "000014",
+        "codigoNome": "000014 - 30 DIAS",
+        "identificador": "00A000000S",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.03",
+        "codigo": "000015",
+        "codigoNome": "000015 - 45 DIAS",
+        "identificador": "00A000000U",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "45 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.04",
+        "codigo": "000016",
+        "codigoNome": "000016 - 60 DIAS",
+        "identificador": "00A000000W",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "60 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.05",
+        "codigo": "000017",
+        "codigoNome": "000017 - 90 DIAS",
+        "identificador": "00A000000X",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "90 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.10",
+        "codigo": "000018",
+        "codigoNome": "000018 - 10 VEZES (10X)",
+        "identificador": "00A000000Z",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "10 VEZES (10X)",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }],
+        "formasPagamentosParcelas": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.11",
+        "codigo": "000019",
+        "codigoNome": "000019 - 30/45 DIAS",
+        "identificador": "00A0000011",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/45 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.12",
+        "codigo": "000020",
+        "codigoNome": "000020 - 30/45/60 DIAS",
+        "identificador": "00A0000013",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/45/60 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.13",
+        "codigo": "000021",
+        "codigoNome": "000021 - 28/56/70 DIAS",
+        "identificador": "00A0000015",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/56/70 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.14",
+        "codigo": "000022",
+        "codigoNome": "000022 - 05 VEZES (5X)",
+        "identificador": "00A0000018",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "05 VEZES (5X)",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }],
+        "formasPagamentosParcelas": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.15",
+        "codigo": "000023",
+        "codigoNome": "000023 - 28/56/84 DIAS",
+        "identificador": "00A000001A",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/56/84 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.16",
+        "codigo": "000025",
+        "codigoNome": "000025 - 15 DIAS",
+        "identificador": "00A000001D",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "15 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.17",
+        "codigo": "000024",
+        "codigoNome": "000024 - 30/60/90/120/150 DIAS",
+        "identificador": "00A000001F",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/60/90/120/150 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.18",
+        "codigo": "000026",
+        "codigoNome": "000026 - ENTRADA + 30/45/60 DIAS",
+        "identificador": "00A000001H",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "ENTRADA + 30/45/60 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.19",
+        "codigo": "000027",
+        "codigoNome": "000027 - 28/35/42 DIAS",
+        "identificador": "00A000001J",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/35/42 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.20",
+        "codigo": "000028",
+        "codigoNome": "000028 - 35 DIAS",
+        "identificador": "00A000001L",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "35 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.21",
+        "codigo": "000029",
+        "codigoNome": "000029 - 30/50/65 DIAS",
+        "identificador": "00A000001O",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/50/65 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.07",
+        "codigo": "000030",
+        "codigoNome": "000030 - 90/120 DIAS",
+        "identificador": "00A000001Q",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "90/120 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            },
+            {
+                "codigo": "000009",
+                "codigoNome": "000009 - DÉBITO AUTOMÁTICO",
+                "identificador": "00A000000D",
+                "nome": "DÉBITO AUTOMÁTICO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.22",
+        "codigo": "000031",
+        "codigoNome": "000031 - 28/30/60/90/120/150",
+        "identificador": "00A000001S",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/30/60/90/120/150",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.23",
+        "codigo": "000032",
+        "codigoNome": "000032 - 30/45/60/75 DIAS",
+        "identificador": "00A000001V",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/45/60/75 DIAS",
+        "tipo": "AMBOS",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+            "codigo": "000001",
+            "codigoNome": "000001 - TRANSFERÊNCIA",
+            "identificador": "00A0000001",
+            "nome": "TRANSFERÊNCIA",
+            "itens": []
+        }],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.24",
+        "codigo": "000033",
+        "codigoNome": "000033 - 5 DIAS",
+        "identificador": "00A000001X",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "5 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.25",
+        "codigo": "000034",
+        "codigoNome": "000034 - A VISTA + 48X",
+        "identificador": "00A0000020",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "A VISTA + 48X",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.26",
+        "codigo": "000035",
+        "codigoNome": "000035 - 30/60/90/120 DIAS",
+        "identificador": "00A0000022",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/60/90/120 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.27",
+        "codigo": "000036",
+        "codigoNome": "000036 - 25/40/55/70/85/100",
+        "identificador": "00A0000024",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "25/40/55/70/85/100",
+        "tipo": "AMBOS",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+            "codigo": "000003",
+            "codigoNome": "000003 - BOLETO BANCÁRIO",
+            "identificador": "00A0000003",
+            "nome": "BOLETO BANCÁRIO",
+            "itens": []
+        }]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.28",
+        "codigo": "000037",
+        "codigoNome": "000037 - 28/35 DIAS",
+        "identificador": "00A0000026",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/35 DIAS",
+        "tipo": "AMBOS",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.29",
+        "codigo": "000038",
+        "codigoNome": "000038 - 50% A VISTA / 50% 30DDL",
+        "identificador": "00A0000029",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "50% A VISTA / 50% 30DDL",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+            "codigo": "000001",
+            "codigoNome": "000001 - TRANSFERÊNCIA",
+            "identificador": "00A0000001",
+            "nome": "TRANSFERÊNCIA",
+            "itens": []
+        }],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.30",
+        "codigo": "000039",
+        "codigoNome": "000039 - 28/42/56 DDL",
+        "identificador": "00A000002B",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28/42/56 DDL",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.08",
+        "codigo": "000040",
+        "codigoNome": "000040 - 30/60",
+        "identificador": "00A000002D",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "30/60",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            },
+            {
+                "codigo": "000008",
+                "codigoNome": "000008 - Á CONFIRMAR",
+                "identificador": "00A000000A",
+                "nome": "Á CONFIRMAR",
+                "itens": []
+            },
+            {
+                "codigo": "000010",
+                "codigoNome": "000010 - CARTÃO DE CREDITO",
+                "identificador": "00A000000G",
+                "nome": "CARTÃO DE CREDITO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.31",
+        "codigo": "000041",
+        "codigoNome": "000041 - 40% ENTRADA / 60% 30DDL",
+        "identificador": "00A000002F",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "40% ENTRADA / 60% 30DDL",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.32",
+        "codigo": "000042",
+        "codigoNome": "000042 - 45DDL",
+        "identificador": "00A000002H",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "45DDL",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.33",
+        "codigo": "000043",
+        "codigoNome": "000043 - 45/60 DIAS",
+        "identificador": "00A000002J",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "45/60 DIAS",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.34",
+        "codigo": "000045",
+        "codigoNome": "000045 - 10 DDL",
+        "identificador": "00A000002M",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "10 DDL",
+        "tipo": "AMBOS",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "01.09",
+        "codigo": "000046",
+        "codigoNome": "000046 - 28 DIAS",
+        "identificador": "00A000002O",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "28 DIAS",
+        "tipo": "RECEBER",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            },
+            {
+                "codigo": "000005",
+                "codigoNome": "000005 - DINHEIRO",
+                "identificador": "00A0000006",
+                "nome": "DINHEIRO",
+                "itens": []
+            },
+            {
+                "codigo": "000006",
+                "codigoNome": "000006 - DOC",
+                "identificador": "00A0000007",
+                "nome": "DOC",
+                "itens": []
+            },
+            {
+                "codigo": "000007",
+                "codigoNome": "000007 - TED",
+                "identificador": "00A0000008",
+                "nome": "TED",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": []
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.35",
+        "codigo": "000047",
+        "codigoNome": "000047 - ENTRADA 30% + 3 PARCELAS (30/60/90)",
+        "identificador": "00A000002R",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "ENTRADA 30% + 3 PARCELAS (30/60/90)",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ]
+    },
+    {
+        "ativo": true,
+        "codigoClassificacao": "02.36",
+        "codigo": "000048",
+        "codigoNome": "000048 - 50% Entrada / Saldo 28/45/56 DDL",
+        "identificador": "00A000002U",
+        "identificadoresEmpresa": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "nome": "50% Entrada / Saldo 28/45/56 DDL",
+        "tipo": "PAGAR",
+        "tipoClassificacao": "ANALITICA",
+        "formasPagamentosEntrada": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ],
+        "formasPagamentosParcelas": [{
+                "codigo": "000001",
+                "codigoNome": "000001 - TRANSFERÊNCIA",
+                "identificador": "00A0000001",
+                "nome": "TRANSFERÊNCIA",
+                "itens": []
+            },
+            {
+                "codigo": "000003",
+                "codigoNome": "000003 - BOLETO BANCÁRIO",
+                "identificador": "00A0000003",
+                "nome": "BOLETO BANCÁRIO",
+                "itens": []
+            }
+        ]
+    }
+]

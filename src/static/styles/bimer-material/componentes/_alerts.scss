@@ -1,0 +1,28 @@
+.v-snack__wrapper.snackbar-warning {
+  background: #FCF8E3;
+  color: #8a6d3b;
+  font-size: 13px;
+}
+
+.v-snack__wrapper.snackbar-success {
+  background: #DFF0D8;
+  color: $green-500;
+  font-size: 13px;
+}
+
+.v-snack__wrapper.snackbar-error {
+  background: #F2DEDE;
+  color: $red-500;
+  font-size: 13px;
+}
+
+.notificacao-campo-obrigatorio {
+  font-size: 13px;
+  font-weight: 400;
+  color: $red-A200;
+  clear: both;
+}
+
+.notificacao-alerta {
+  font-size: 11px;
+}

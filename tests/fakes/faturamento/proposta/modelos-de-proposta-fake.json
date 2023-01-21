@@ -1,0 +1,44 @@
+[
+  {
+    "identificador": "1",
+    "nome": "Modelo de proposta de locação",
+    "tipoModelo":"Proposta",
+    "descricao": "descrição do modelo 1 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 1 <div id=\"variavel_teste_01\"></div>"
+  },
+  {
+    "identificador": "2",
+    "nome": "Modelo de proposta de manutenção",
+    "tipoModelo":"Proposta",
+    "descricao": "descrição do modelo 2 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 2"
+  },
+  {
+    "identificador": "3",
+    "nome": "Modelo de proposta do Faturamento",
+    "tipoModelo":"Proposta",
+    "descricao": "descrição do modelo 3 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 3 <div id=\"variavel_teste_03\"></div>"
+  },
+  {
+    "identificador": "4",
+    "nome": "Modelo de proposta do Específico",
+    "tipoModelo":"Proposta",
+    "descricao": "descrição do modelo 4 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 4"
+  },
+  {
+    "identificador": "5",
+    "nome": "Modelo de Aditivo A",
+    "tipoModelo":"Aditivo",
+    "descricao": "descrição do modelo 5 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 5"
+  },
+  {
+    "identificador": "6",
+    "nome": "Modelo de Aditivo B",
+    "tipoModelo":"Aditivo",
+    "descricao": "descrição do modelo 6 contendo o tamanho máximo de 100 caracteres para testar o comportamento do msm",
+    "conteudo": "conteúdo do modelo 6"
+  }
+]

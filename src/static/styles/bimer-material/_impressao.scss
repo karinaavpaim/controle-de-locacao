@@ -1,0 +1,68 @@
+.somente-impressao {
+  display: none;
+}
+
+@media print {
+  * {
+    background:transparent !important;
+    color:#000 !important;
+    text-shadow:none !important;
+    filter:none !important;
+    -ms-filter:none !important;
+  }
+
+  @page{
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+  }
+
+  thead {
+      display: contents;
+  }
+
+  body {
+    /* preto e branco */
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important;
+  }
+
+  main {
+    margin: 0 !important;
+  }
+    
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+
+  input, textarea, select, .v-input__slot::before {
+    background: transparent !important;
+    border: none !important;
+    display: block !important;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    -webkit-appearance:none !important;
+  }
+
+  button.mdi-close {
+    display: none !important;
+  }
+
+  .somente-impressao-flex {
+    display: flex;
+  }
+
+  .imprimir {
+    display: block;
+  }
+
+  .nao-imprimir, header, .v-breadcrumbs, .input-pesquisar, #barra-de-acoes-rodape-base-opcoes-movimentacao-locacao, .v-data-footer {
+    display: none !important;
+  }
+}

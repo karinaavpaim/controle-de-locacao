@@ -1,0 +1,45 @@
+%totalizadores {
+  font-weight: 500;
+  color: $grey-900;
+}
+
+p.resumo-padrao {
+  @extend %totalizadores;
+  font-size: 15px;
+}
+
+p.totalizadores-rodape, span.totalizadores-rodape {
+  @extend %totalizadores;
+  font-size: 17px;
+}
+
+p.totalizadores-rodape-disabled {
+  @extend %totalizadores;
+  font-size: 17px;
+  color: $grey-500;
+}
+
+p.totalizadores-resumo, span.totalizadores-resumo {
+  @extend %totalizadores;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+p.total-modal {
+  @extend %totalizadores;
+  font-size: 22px;
+  color: $cor_primaria;
+}
+
+p.total-orcamento {
+  @extend %totalizadores;
+  font-size: 28px;
+  color: $cor_primaria;
+}
+
+p.total-orcamento-resumo {
+  @extend %totalizadores;
+  font-size: 22px;
+  color: $cor_primaria;
+  font-weight: 600;
+}

@@ -1,0 +1,782 @@
+{
+    "Codigo": 18012771,
+    "DataAbertura": "/Date(1540996644153-0300)/",
+    "DataProximoAtendimento": "/Date(1541300400000-0300)/",
+    "Identificador": 18012771,
+    "Pessoa": {
+      "Categorias": [
+        {
+          "Ativa": true,
+          "Identificador": 5,
+          "Nome": "Cliente"
+        },
+        {
+          "Ativa": true,
+          "Identificador": 6,
+          "Nome": "Fornecedor"
+        },
+        {
+          "Ativa": true,
+          "Identificador": 4,
+          "Nome": "Representante"
+        }
+      ],
+      "Cnae": null,
+      "CnaeDescricao": null,
+      "Codigo": 900000,
+      "CpfCnpj": 36462778000160,
+      "DataCadastro": "/Date(949024800000-0200)/",
+      "EnderecoPrincipal": {
+        "Ativo": true,
+        "Bairro": {
+          "Codigo": 2,
+          "Identificador": 10000002,
+          "Nome": "CENTRO"
+        },
+        "BairroCidadeUnidadeFederativaCep": "CENTRO - TERESOPOLIS - RJ - 25953-200",
+        "Cep": 25953200,
+        "Cidade": {
+          "Codigo": 5,
+          "CodigoDDD": 21,
+          "CodigoIBGE": 3305802,
+          "Identificador": 10000005,
+          "Nome": "TERESOPOLIS",
+          "Uf": {
+            "CodigoIBGE": 33,
+            "Nome": "Rio de Janeiro",
+            "Sigla": "RJ"
+          }
+        },
+        "Codigo": 1,
+        "CodigoSuframa": "",
+        "Complemento": "",
+        "ContatoPrincipal": {
+          "ContatoPrincipal": true,
+          "Email": "testecobranca@alterdata.com.br",
+          "EmailBoletos": null,
+          "EmailCobranca": null,
+          "EmailNFEletronica": null,
+          "Identificador": "00100010TY",
+          "ListaCompleta": [
+            {
+              "Key": "Contato (Pessoal)",
+              "Value": "Sandro Parisi / Ladmir Carvalho"
+            },
+            {
+              "Key": "Telefone Comercial",
+              "Value": "0800-704-1418"
+            },
+            {
+              "Key": "Vendas",
+              "Value": "Vendas: 0800-704-1418"
+            },
+            {
+              "Key": "EMAIL 2",
+              "Value": "testecobranca@alterdata.com.br"
+            },
+            {
+              "Key": "Email receita fed.",
+              "Value": "gtf.contabilidade@alterdata.com.br"
+            },
+            {
+              "Key": "Tel. receita federal",
+              "Value": "(21) 2643-9520"
+            },
+            {
+              "Key": "Suporte",
+              "Value": "(21) 3189-1750"
+            },
+            {
+              "Key": "ICQ",
+              "Value": 135750464
+            },
+            {
+              "Key": "Telefone",
+              "Value": "2643-9500"
+            },
+            {
+              "Key": "EMAIL",
+              "Value": "testecobranca@alterdata.com.br"
+            },
+            {
+              "Key": "Telefone Celular",
+              "Value": "(21) 99629-1172"
+            }
+          ],
+          "Nome": "Dir: Ladmir Carvalho",
+          "PaginaInternet": null,
+          "Status": "\u0000",
+          "Suporte": "(21) 3189-1750",
+          "TelefoneCelular": "(21) 99629-1172",
+          "TelefoneFixo": "2643-9500"
+        },
+        "InscricaoEstadual": "86.027.372",
+        "Latitude": 0,
+        "Longitude": 0,
+        "NomeLogradouro": "Rua Prefeito Sebastião Teixeira,",
+        "NumeroLogradouro": 227,
+        "Observacao": "CNPJ 31.999.139/0001-14 - \"CNPJ testes NFeasy - TREINAR\"\r\n\r\nINSCRIÇÃO ESTADUAL: NÃO CONTRIBUINTE.\r\n\r\nOBS.: Antigo numero de Insc. Estadual - 86.027.372 - NÃO USAR",
+        "PessoasContato": [
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "00100034DK",
+            "ListaCompleta": [
+              {
+                "Key": "Código no SCLI",
+                "Value": 919
+              }
+            ],
+            "Nome": "Códigos Externos",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": null
+          },
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "001000A7GU",
+            "ListaCompleta": [
+              {
+                "Key": "Telefone",
+                "Value": "(21) 2643-9509"
+              }
+            ],
+            "Nome": "Art & Design",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": "(21) 2643-9509"
+          },
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "00100034GE",
+            "ListaCompleta": [
+              {
+                "Key": "Código no SCLI",
+                "Value": 952
+              }
+            ],
+            "Nome": "Códigos Externos",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": null
+          },
+          {
+            "ContatoPrincipal": true,
+            "Email": "testecobranca@alterdata.com.br",
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "00100010TY",
+            "ListaCompleta": [
+              {
+                "Key": "Contato (Pessoal)",
+                "Value": "Sandro Parisi / Ladmir Carvalho"
+              },
+              {
+                "Key": "Telefone Comercial",
+                "Value": "0800-704-1418"
+              },
+              {
+                "Key": "Vendas",
+                "Value": "Vendas: 0800-704-1418"
+              },
+              {
+                "Key": "EMAIL 2",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Email receita fed.",
+                "Value": "gtf.contabilidade@alterdata.com.br"
+              },
+              {
+                "Key": "Tel. receita federal",
+                "Value": "(21) 2643-9520"
+              },
+              {
+                "Key": "Suporte",
+                "Value": "(21) 3189-1750"
+              },
+              {
+                "Key": "ICQ",
+                "Value": 135750464
+              },
+              {
+                "Key": "Telefone",
+                "Value": "2643-9500"
+              },
+              {
+                "Key": "EMAIL",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Telefone Celular",
+                "Value": "(21) 99629-1172"
+              }
+            ],
+            "Nome": "Dir: Ladmir Carvalho",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": "(21) 3189-1750",
+            "TelefoneCelular": "(21) 99629-1172",
+            "TelefoneFixo": "2643-9500"
+          },
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "001000A7GT",
+            "ListaCompleta": [
+              {
+                "Key": "Telefone",
+                "Value": "(24) 2237-9582"
+              }
+            ],
+            "Nome": "Divisão VIP",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": "(24) 2237-9582"
+          },
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "001000A7GS",
+            "ListaCompleta": [
+              {
+                "Key": "Telefone",
+                "Value": "(21) 2643-9534"
+              }
+            ],
+            "Nome": "Marketing",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": "(21) 2643-9534"
+          },
+          {
+            "ContatoPrincipal": false,
+            "Email": null,
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "001000A7GR",
+            "ListaCompleta": [
+              {
+                "Key": "Telefone",
+                "Value": "(21) 2643-9515"
+              }
+            ],
+            "Nome": "Suporte Rede de Lojas",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": null,
+            "TelefoneCelular": null,
+            "TelefoneFixo": "(21) 2643-9515"
+          }
+        ],
+        "TipoLogradouro": {
+          "Identificador": null,
+          "Nome": ""
+        },
+        "TipoNomeNumeroComplementoLogradouro": "Rua Prefeito Sebastião Teixeira,, 227",
+        "TiposEnderecos": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "TiposEnderecosDescricao": [
+          "Principal",
+          "Entrega",
+          "Cobrança",
+          "Comercial",
+          "Correspondência"
+        ],
+        "Uf": "RJ"
+      },
+      "Enderecos": [
+        {
+          "Ativo": true,
+          "Bairro": {
+            "Codigo": 2,
+            "Identificador": 10000002,
+            "Nome": "CENTRO"
+          },
+          "BairroCidadeUnidadeFederativaCep": "CENTRO - TERESOPOLIS - RJ - 25953-200",
+          "Cep": 25953200,
+          "Cidade": {
+            "Codigo": 5,
+            "CodigoDDD": 21,
+            "CodigoIBGE": 3305802,
+            "Identificador": 10000005,
+            "Nome": "TERESOPOLIS",
+            "Uf": {
+              "CodigoIBGE": 33,
+              "Nome": "Rio de Janeiro",
+              "Sigla": "RJ"
+            }
+          },
+          "Codigo": 1,
+          "CodigoSuframa": "",
+          "Complemento": "",
+          "ContatoPrincipal": {
+            "ContatoPrincipal": true,
+            "Email": "testecobranca@alterdata.com.br",
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "00100010TY",
+            "ListaCompleta": [
+              {
+                "Key": "Contato (Pessoal)",
+                "Value": "Sandro Parisi / Ladmir Carvalho"
+              },
+              {
+                "Key": "Telefone Comercial",
+                "Value": "0800-704-1418"
+              },
+              {
+                "Key": "Vendas",
+                "Value": "Vendas: 0800-704-1418"
+              },
+              {
+                "Key": "EMAIL 2",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Email receita fed.",
+                "Value": "gtf.contabilidade@alterdata.com.br"
+              },
+              {
+                "Key": "Tel. receita federal",
+                "Value": "(21) 2643-9520"
+              },
+              {
+                "Key": "Suporte",
+                "Value": "(21) 3189-1750"
+              },
+              {
+                "Key": "ICQ",
+                "Value": 135750464
+              },
+              {
+                "Key": "Telefone",
+                "Value": "2643-9500"
+              },
+              {
+                "Key": "EMAIL",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Telefone Celular",
+                "Value": "(21) 99629-1172"
+              }
+            ],
+            "Nome": "Dir: Ladmir Carvalho",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": "(21) 3189-1750",
+            "TelefoneCelular": "(21) 99629-1172",
+            "TelefoneFixo": "2643-9500"
+          },
+          "InscricaoEstadual": "86.027.372",
+          "Latitude": 0,
+          "Longitude": 0,
+          "NomeLogradouro": "Rua Prefeito Sebastião Teixeira,",
+          "NumeroLogradouro": 227,
+          "Observacao": "CNPJ 31.999.139/0001-14 - \"CNPJ testes NFeasy - TREINAR\"\r\n\r\nINSCRIÇÃO ESTADUAL: NÃO CONTRIBUINTE.\r\n\r\nOBS.: Antigo numero de Insc. Estadual - 86.027.372 - NÃO USAR",
+          "PessoasContato": [
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "00100034DK",
+              "ListaCompleta": [
+                {
+                  "Key": "Código no SCLI",
+                  "Value": 919
+                }
+              ],
+              "Nome": "Códigos Externos",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": null
+            },
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "001000A7GU",
+              "ListaCompleta": [
+                {
+                  "Key": "Telefone",
+                  "Value": "(21) 2643-9509"
+                }
+              ],
+              "Nome": "Art & Design",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": "(21) 2643-9509"
+            },
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "00100034GE",
+              "ListaCompleta": [
+                {
+                  "Key": "Código no SCLI",
+                  "Value": 952
+                }
+              ],
+              "Nome": "Códigos Externos",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": null
+            },
+            {
+              "ContatoPrincipal": true,
+              "Email": "testecobranca@alterdata.com.br",
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "00100010TY",
+              "ListaCompleta": [
+                {
+                  "Key": "Contato (Pessoal)",
+                  "Value": "Sandro Parisi / Ladmir Carvalho"
+                },
+                {
+                  "Key": "Telefone Comercial",
+                  "Value": "0800-704-1418"
+                },
+                {
+                  "Key": "Vendas",
+                  "Value": "Vendas: 0800-704-1418"
+                },
+                {
+                  "Key": "EMAIL 2",
+                  "Value": "testecobranca@alterdata.com.br"
+                },
+                {
+                  "Key": "Email receita fed.",
+                  "Value": "gtf.contabilidade@alterdata.com.br"
+                },
+                {
+                  "Key": "Tel. receita federal",
+                  "Value": "(21) 2643-9520"
+                },
+                {
+                  "Key": "Suporte",
+                  "Value": "(21) 3189-1750"
+                },
+                {
+                  "Key": "ICQ",
+                  "Value": 135750464
+                },
+                {
+                  "Key": "Telefone",
+                  "Value": "2643-9500"
+                },
+                {
+                  "Key": "EMAIL",
+                  "Value": "testecobranca@alterdata.com.br"
+                },
+                {
+                  "Key": "Telefone Celular",
+                  "Value": "(21) 99629-1172"
+                }
+              ],
+              "Nome": "Dir: Ladmir Carvalho",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": "(21) 3189-1750",
+              "TelefoneCelular": "(21) 99629-1172",
+              "TelefoneFixo": "2643-9500"
+            },
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "001000A7GT",
+              "ListaCompleta": [
+                {
+                  "Key": "Telefone",
+                  "Value": "(24) 2237-9582"
+                }
+              ],
+              "Nome": "Divisão VIP",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": "(24) 2237-9582"
+            },
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "001000A7GS",
+              "ListaCompleta": [
+                {
+                  "Key": "Telefone",
+                  "Value": "(21) 2643-9534"
+                }
+              ],
+              "Nome": "Marketing",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": "(21) 2643-9534"
+            },
+            {
+              "ContatoPrincipal": false,
+              "Email": null,
+              "EmailBoletos": null,
+              "EmailCobranca": null,
+              "EmailNFEletronica": null,
+              "Identificador": "001000A7GR",
+              "ListaCompleta": [
+                {
+                  "Key": "Telefone",
+                  "Value": "(21) 2643-9515"
+                }
+              ],
+              "Nome": "Suporte Rede de Lojas",
+              "PaginaInternet": null,
+              "Status": "\u0000",
+              "Suporte": null,
+              "TelefoneCelular": null,
+              "TelefoneFixo": "(21) 2643-9515"
+            }
+          ],
+          "TipoLogradouro": {
+            "Identificador": null,
+            "Nome": ""
+          },
+          "TipoNomeNumeroComplementoLogradouro": "Rua Prefeito Sebastião Teixeira,, 227",
+          "TiposEnderecos": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "TiposEnderecosDescricao": [
+            "Principal",
+            "Entrega",
+            "Cobrança",
+            "Comercial",
+            "Correspondência"
+          ],
+          "Uf": "RJ"
+        }
+      ],
+      "Identificador": "001000000I",
+      "IdentificadorRepresentantePrincipalRelacionado": "001000000I",
+      "InformacoesRestritas": false,
+      "Nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+      "NomeCurto": "ALTERDATA MATRIZ",
+      "PessoasRelacionadasPrincipais": [],
+      "PossuiCaracteristicaInadimplencia": false,
+      "RepresentantePrincipalRelacionado": {
+        "Cnae": null,
+        "CnaeDescricao": null,
+        "Codigo": 900000,
+        "EnderecoPrincipal": {
+          "ContatoPrincipal": {
+            "ContatoPrincipal": true,
+            "Email": "testecobranca@alterdata.com.br",
+            "EmailBoletos": null,
+            "EmailCobranca": null,
+            "EmailNFEletronica": null,
+            "Identificador": "00100010TY",
+            "ListaCompleta": [
+              {
+                "Key": "Contato (Pessoal)",
+                "Value": "Sandro Parisi / Ladmir Carvalho"
+              },
+              {
+                "Key": "Telefone Comercial",
+                "Value": "0800-704-1418"
+              },
+              {
+                "Key": "Vendas",
+                "Value": "Vendas: 0800-704-1418"
+              },
+              {
+                "Key": "EMAIL 2",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Email receita fed.",
+                "Value": "gtf.contabilidade@alterdata.com.br"
+              },
+              {
+                "Key": "Tel. receita federal",
+                "Value": "(21) 2643-9520"
+              },
+              {
+                "Key": "Suporte",
+                "Value": "(21) 3189-1750"
+              },
+              {
+                "Key": "ICQ",
+                "Value": 135750464
+              },
+              {
+                "Key": "Telefone",
+                "Value": "2643-9500"
+              },
+              {
+                "Key": "EMAIL",
+                "Value": "testecobranca@alterdata.com.br"
+              },
+              {
+                "Key": "Telefone Celular",
+                "Value": "(21) 99629-1172"
+              }
+            ],
+            "Nome": "Dir: Ladmir Carvalho",
+            "PaginaInternet": null,
+            "Status": "\u0000",
+            "Suporte": "(21) 3189-1750",
+            "TelefoneCelular": "(21) 99629-1172",
+            "TelefoneFixo": "2643-9500"
+          },
+          "Latitude": 0,
+          "Longitude": 0,
+          "TiposEnderecos": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "TiposEnderecosDescricao": []
+        },
+        "Enderecos": [],
+        "Identificador": "001000000I",
+        "InformacoesRestritas": false,
+        "Nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+        "NomeCurto": "ALTERDATA MATRIZ",
+        "PessoasRelacionadasPrincipais": [],
+        "PossuiCaracteristicaInadimplencia": false,
+        "TipoPessoa": 0
+      },
+      "TipoPessoa": 1
+    },
+    "Produto": {
+      "BloqueiaCriacaoAtendimento": false,
+      "Codigo": "Específico",
+      "EmpresasProduto": [
+        {
+          "Empresa": {
+            "Codigo": 2,
+            "Nome": "ALTERDATA COM.E DISTRIB.DE SIST.E PROD.DE INF.LTDA"
+          },
+          "Precos": []
+        },
+        {
+          "Empresa": {
+            "Codigo": 1,
+            "Nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA"
+          },
+          "Precos": []
+        }
+      ],
+      "Identificador": "001000000Z",
+      "Nome": "Sistemas Específicos(N)"
+    },
+    "TipoAtendimento": {
+      "AplicacaoTipoAtendimento": 0,
+      "Ativo": true,
+      "BloqueiaTrocaDeTipoAtendimentoDuranteParecer": false,
+      "Classificacao": "01.001.001",
+      "Codigo": 1,
+      "Cor": {
+        "B": 255,
+        "G": 0,
+        "R": 0
+      },
+      "Descricao": "Dúvidas sobre o sistema",
+      "Identificador": 10000001,
+      "IdentificadorTipoAtendimentoPai": "",
+      "ProdutoObrigatorio": true,
+      "TamanhoMaximoAnexo": 4,
+      "TipoClassificacao": "A",
+      "WorkFlow": {
+        "Codigo": 11,
+        "Descricao": "Atendimento Inicial",
+        "Identificador": 10000011
+      }
+    },
+    "UsuarioAbertura": {
+      "Funcoes": [
+        {
+          "Codigo": 308,
+          "Identificador": "00100000CM",
+          "Nome": "Inspetor de qualidade"
+        }
+      ],
+      "Identificador": "00100002DE",
+      "IdentificadorFuncionario": "0010003GH5",
+      "IdentificadorRepresentantePrincipal": "001000000I",
+      "NomeLogin": "GASPAR.DSN.ERP"
+    },
+    "UsuarioProximoAtendimento": {
+      "Funcoes": [
+        {
+          "Codigo": 679,
+          "Identificador": "00100000QT",
+          "Nome": "Programador(a)"
+        }
+      ],
+      "Identificador": "001000041X",
+      "IdentificadorFuncionario": "00100067H5",
+      "IdentificadorRepresentantePrincipal": "001000000I",
+      "NomeLogin": "FERNANDA.DSN.ERP"
+    }
+  }

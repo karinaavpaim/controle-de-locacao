@@ -1,0 +1,128 @@
+{
+  "options": {
+    "routes": [
+      {
+        "path": "cadastro-de-contatos-de-venda",
+        "component": "DashboardContatoDeVenda",
+        "name": "CadastroDeContatoDeVenda",
+        "title": "Cadastro",
+        "icon": "mdi-account",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Contato de venda",
+        "familia": "CRM",
+        "naoExibir": false
+      },
+      {
+        "path": "consulta-de-contatos-de-venda",
+        "component": "DashboardContatoDeVenda",
+        "name": "Consulta de contatos de venda",
+        "title": "Consulta",
+        "icon": "mdi-account",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Contato de venda",
+        "familia": "CRM",
+        "naoExibir": false
+      },
+      {
+        "path": "novo",
+        "component": "NovoAtendimento",
+        "name": "NovoAtendimento",
+        "title": "Novo",
+        "icon": "playlist_add_check",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Atendimento",
+        "familia": "CRM"
+      },
+      {
+        "path": "consulta",
+        "component": "Consulta",
+        "name": "ConsultaDeAtendimentos",
+        "title": "Consulta",
+        "icon": "playlist_add_check",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Atendimento",
+        "familia": "CRM"
+      },
+      {
+        "path": "agenda",
+        "component": "agenda",
+        "name": "Agenda",
+        "title": "Agenda",
+        "icon": "mdi-clock",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "familia": "Geral"
+      },
+      {
+        "path": "cenarios",
+        "component": "cenarios",
+        "name": "Cenarios",
+        "title": "Cenários",
+        "icon": "mdi-clock",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "familia": "Geral"
+      },
+      {
+        "path": "estatisticas-do-sistema",
+        "component": "estatisticasDoSistema",
+        "name": "EstatisticasDoSistema",
+        "title": "Estatísticas do sistema",
+        "icon": "mdi-clock",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "familia": "Geral"
+      },
+      {
+        "path": "/",
+        "component": "SelecaoDocumentos",
+        "name": "SelecaoDocumentos",
+        "title": "Seleção de documentos",
+        "icon": "mdi-dolly",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Controle de estoque",
+        "familia": "Estoque",
+        "naoExibir": false
+      },
+      {
+        "path": "/",
+        "component": "DashboardLocacao",
+        "name": "DespesasDeViagemIndividuais",
+        "title": "Despesas de viagem individuais",
+        "icon": "mdi-account",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Despesas de viagem",
+        "familia": "Financeiro",
+        "naoExibir": false
+      },
+      {
+        "path": "/",
+        "component": "DashboardLocacao",
+        "name": "DashboardDeLocacao",
+        "title": "Dashboard",
+        "icon": "dashboard",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Controle de locação",
+        "familia": "Faturamento"
+      },
+      {
+        "path": "orcamento-locacao",
+        "component": "OrcamentoLocacao",
+        "name": "OrcamentoDeLocacao",
+        "title": "Orçamento",
+        "icon": "assignment",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Controle de locação",
+        "familia": "Faturamento"
+      },
+      {
+        "path": "novo",
+        "component": "OrcamentoLocacao",
+        "name": "NovoOrcamentoDeLocacao",
+        "title": "Novo orçamento",
+        "icon": "assignment_turned_in",
+        "help": "https://ajuda.alterdata.com.br/bw",
+        "grupo": "Controle de locação",
+        "familia": "Faturamento",
+        "naoExibir": true
+      }
+    ]
+  }
+}

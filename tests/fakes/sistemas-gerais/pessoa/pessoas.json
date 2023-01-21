@@ -1,0 +1,14 @@
+[
+  { 
+    "identificador": "123456789",
+    "codigo": "000001",
+    "nome": "Fulano de tal",
+    "nomeCurto": "FULANO.DSN.ERP"
+  },
+  { 
+    "identificador": "123456788",
+    "codigo": "000002",
+    "nome": "Ciclano",
+    "nomeCurto": "CICLANO.DSN.ERP"
+  }
+]

@@ -1,0 +1,51 @@
+.v-btn:focus i.material-icons.seta-para-cima,
+.v-btn i.material-icons.seta-para-baixo {
+  display: inherit;
+}
+
+.v-btn i.material-icons.seta-para-cima,
+.v-btn:focus i.material-icons.seta-para-baixo {
+  display: none;
+}
+
+button.btn-opcoes.v-btn.v-btn--flat.v-btn--text.theme--light,
+a.btn-opcoes.theme--light {
+  background-color: $white;
+  text-transform: initial;
+  border-radius: 2px;
+  border: 2px solid $bg_grid;
+  font-size: 13px;
+  padding: 0px;
+  font-weight: inherit;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 28px;
+}
+
+button.btn-opcoes.v-btn--active:before,
+button.btn-opcoes.v-btn:focus:before,
+button.btn-opcoes.v-btn:hover:before {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+table.v-datatable.v-table.theme--light > thead > tr > th,
+table.v-datatable.v-table.theme--light > tbody > tr > td {
+  padding: 0 10px;
+}
+
+.theme--light.v-data-table.tabela-orcamentos tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.theme--light.v-data-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.v-list.lista-do-menu {
+  padding: 0px;
+  border-top: 2px solid $cor_primaria;
+}
+
+.alinhamento-icone-btn-opcoes {
+  margin-left: 7px;
+}

@@ -1,0 +1,698 @@
+{
+	"orcado": {
+		"identificador": "3205",
+		"idEntidadeOrigem": null,
+		"codigo": "003205",
+		"descricao": "Lorem ipsum dolor sit amet consectetur adipiscing, elit commodo lacinia mus fringilla nullam orci.",
+		"dataEmissao": "2021-05-25T11:45:54.693",
+		"dataReferencia": "2021-05-20T00:00:00.000",
+		"dataInicioContrato": "2021-05-20T00:00:00.000",
+		"dataTerminoContrato": "2021-05-31T00:00:00.000",
+		"empresa": {
+			"identificador": "1",
+			"codigo": "1",
+			"codigoNome": "1 - LKL OLEO E GAS COMERCIO, SERVICOS E REPR",
+			"CNPJ": "19.696.291/0001-22"
+		},
+		"cliente": {
+			"identificador": "00A0000008",
+			"codigo": "000001",
+			"codigoNome": "000001 - LKL OLEO E GAS COMERCIO, SERVICOS E REPR",
+			"CPFouCNPJ": "19.696.291/0001-22",
+			"nomeCurto": "LKL OLEO E GAS",
+			"nome": "LKL OLEO E GAS COMERCIO, SERVICOS E REPR"
+		},
+		"itens": [{
+			"identificador": "11615",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "EQUIPAMENTO",
+			"quantidade": 1,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 1500,
+			"valorAdicionalPersonalizado": 1072.9,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A000000E",
+				"codigo": "000010",
+				"codigoNome": "000010 - LINK TORQUE; TWH120N; SEXT. 100MM",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11616",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "MATERIAL",
+			"quantidade": 15,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 25,
+			"valorAdicionalPersonalizado": 71.15,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A0000035",
+				"codigo": "000109",
+				"codigoNome": "000109 - CERTIFICADO TAMANHO A4 PAPEL OFFSET 180G COLORIDO",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11617",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "MATERIAL",
+			"quantidade": 40,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 5,
+			"valorAdicionalPersonalizado": 14.23,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00001VL",
+				"codigo": "002407",
+				"codigoNome": "002407 - PARAFUSO 08",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11618",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "SERVICO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 85,
+			"valorAdicionalPersonalizado": 474.21,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00000WB",
+				"codigo": "001137",
+				"codigoNome": "001137 - PRESTAÇÃO DE SERVIÇO UMS - JOB CARDS",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11619",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "EQUIPAMENTO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 285,
+			"valorAdicionalPersonalizado": 203.85,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00002V6",
+				"codigo": "003066",
+				"codigoNome": "003066 - EXTRATOR DE PARAFUSOS",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11620",
+			"identificadorEntidadeOrigem": null,
+			"descricao": "",
+			"categoria": "SERVICO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 152,
+			"valorAdicionalPersonalizado": 848,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00000WA",
+				"codigo": "001136",
+				"codigoNome": "001136 - PRESTAÇÃO DE SERVIÇO DE MÁQUINAS E EQUIPAMENTOS PARA PROSPEÇÃO DE PETROLEO",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}],
+		"despesas": [{
+			"identificador": "3278",
+			"identificadorEntidadeOrigem": null,
+			"quantidade": 10,
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorAdicionalPersonalizado": 14.61,
+			"valorItem": 75,
+			"naturezaLancamento": {
+				"identificador": "00A0000067",
+				"tipo": "ANALITICA",
+				"nome": "DESPESAS COM FESTIVIDADES",
+				"classificacao": "2.01.06.01.01"
+			}
+		}, {
+			"identificador": "3279",
+			"identificadorEntidadeOrigem": null,
+			"quantidade": 3,
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorAdicionalPersonalizado": 6.05,
+			"valorItem": 31.05,
+			"naturezaLancamento": {
+				"identificador": "00A000004P",
+				"tipo": "ANALITICA",
+				"nome": "ADIANTAMENTO DE DESPESAS",
+				"classificacao": "2.01.07.08.  ."
+			}
+		}],
+		"adicionalPersonalizadoItens": [{
+			"adicionalPersonalizadoItem": {
+				"identificador": 1,
+				"descricao": "ISS"
+			},
+			"valorTotalAdicionalPersonalizado": 443.529198428438
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 4,
+				"descricao": "IPI"
+			},
+			"valorTotalAdicionalPersonalizado": 568.721168725397
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 5,
+				"descricao": "INSS"
+			},
+			"valorTotalAdicionalPersonalizado": 104.34134357379
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 6,
+				"descricao": "Lucro"
+			},
+			"valorTotalAdicionalPersonalizado": 2217.64599214219
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 7,
+				"descricao": "PIS"
+			},
+			"valorTotalAdicionalPersonalizado": 47.0783006275751
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 8,
+				"descricao": "IR"
+			},
+			"valorTotalAdicionalPersonalizado": 317.531868146482
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 9,
+				"descricao": "COFINS"
+			},
+			"valorTotalAdicionalPersonalizado": 665.293797642658
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 10,
+				"descricao": "Comissão"
+			},
+			"valorTotalAdicionalPersonalizado": 434.755598224123
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 323,
+				"descricao": "ABCDE"
+			},
+			"valorTotalAdicionalPersonalizado": 7342.54908210097
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 334,
+				"descricao": "Perda"
+			},
+			"valorTotalAdicionalPersonalizado": 32.1908763057536
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 335,
+				"descricao": "IRRF"
+			},
+			"valorTotalAdicionalPersonalizado": 64.8369304556355
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 369,
+				"descricao": "Folha"
+			},
+			"valorTotalAdicionalPersonalizado": 2843.60584362698
+		}]
+	},
+	"locacao": {
+		"identificador": "3206",
+		"idEntidadeOrigem": 3205,
+		"codigo": "003205",
+		"descricao": "Lorem ipsum dolor sit amet consectetur adipiscing, elit commodo lacinia mus fringilla nullam orci.",
+		"dataEmissao": "2021-05-25T11:46:16.237",
+		"dataReferencia": "2021-05-20T00:00:00.000",
+		"dataInicioContrato": "2021-05-20T00:00:00.000",
+		"dataTerminoContrato": "2021-05-31T00:00:00.000",
+		"empresa": {
+			"identificador": "1",
+			"codigo": "1",
+			"codigoNome": "1 - LKL OLEO E GAS COMERCIO, SERVICOS E REPR",
+			"CNPJ": "19.696.291/0001-22"
+		},
+		"cliente": {
+			"identificador": "00A0000008",
+			"codigo": "000001",
+			"codigoNome": "000001 - LKL OLEO E GAS COMERCIO, SERVICOS E REPR",
+			"CPFouCNPJ": "19.696.291/0001-22",
+			"nomeCurto": "LKL OLEO E GAS",
+			"nome": "LKL OLEO E GAS COMERCIO, SERVICOS E REPR"
+		},
+		"itens": [{
+			"identificador": "11621",
+			"identificadorEntidadeOrigem": "11616",
+			"descricao": "",
+			"categoria": "MATERIAL",
+			"quantidade": 15,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 25,
+			"valorAdicionalPersonalizado": 71.15,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A0000035",
+				"codigo": "000109",
+				"codigoNome": "000109 - CERTIFICADO TAMANHO A4 PAPEL OFFSET 180G COLORIDO",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11622",
+			"identificadorEntidadeOrigem": "11617",
+			"descricao": "",
+			"categoria": "MATERIAL",
+			"quantidade": 40,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 5,
+			"valorAdicionalPersonalizado": 14.23,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00001VL",
+				"codigo": "002407",
+				"codigoNome": "002407 - PARAFUSO 08",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11623",
+			"identificadorEntidadeOrigem": "11615",
+			"descricao": "",
+			"categoria": "EQUIPAMENTO",
+			"quantidade": 1,
+			"quantidadeDiarias": 1,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 1500,
+			"valorAdicionalPersonalizado": 1072.9,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A000000E",
+				"codigo": "000010",
+				"codigoNome": "000010 - LINK TORQUE; TWH120N; SEXT. 100MM",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11624",
+			"identificadorEntidadeOrigem": "11618",
+			"descricao": "",
+			"categoria": "SERVICO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 85,
+			"valorAdicionalPersonalizado": 474.21,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00000WB",
+				"codigo": "001137",
+				"codigoNome": "001137 - PRESTAÇÃO DE SERVIÇO UMS - JOB CARDS",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11625",
+			"identificadorEntidadeOrigem": "11619",
+			"descricao": "",
+			"categoria": "EQUIPAMENTO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 285,
+			"valorAdicionalPersonalizado": 203.85,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00002V6",
+				"codigo": "003066",
+				"codigoNome": "003066 - EXTRATOR DE PARAFUSOS",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}, {
+			"identificador": "11626",
+			"identificadorEntidadeOrigem": "11620",
+			"descricao": "",
+			"categoria": "SERVICO",
+			"quantidade": 4,
+			"quantidadeDiarias": 2,
+			"valorDesconto": 0,
+			"valorAcrescimo": 0,
+			"valorUnitario": 152,
+			"valorAdicionalPersonalizado": 848,
+			"incluidoNaGestao": false,
+			"medirPeloOrcado": false,
+			"preco": null,
+			"produto": {
+				"identificador": "00A00000WA",
+				"codigo": "001136",
+				"codigoNome": "001136 - PRESTAÇÃO DE SERVIÇO DE MÁQUINAS E EQUIPAMENTOS PARA PROSPEÇÃO DE PETROLEO",
+				"controleLoteSerie": null,
+				"classificacao": null,
+				"produtoComposto": false,
+				"descricaoAplicacao": null
+			}
+		}],
+		"despesas": [{
+			"identificador": "3280",
+			"identificadorEntidadeOrigem": "3278",
+			"quantidade": 10,
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorAdicionalPersonalizado": 14.61,
+			"valorItem": 75,
+			"naturezaLancamento": {
+				"identificador": "00A0000067",
+				"tipo": "ANALITICA",
+				"nome": "DESPESAS COM FESTIVIDADES",
+				"classificacao": "2.01.06.01.01"
+			}
+		}, {
+			"identificador": "3281",
+			"identificadorEntidadeOrigem": "3279",
+			"quantidade": 3,
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorAdicionalPersonalizado": 6.05,
+			"valorItem": 31.05,
+			"naturezaLancamento": {
+				"identificador": "00A000004P",
+				"tipo": "ANALITICA",
+				"nome": "ADIANTAMENTO DE DESPESAS",
+				"classificacao": "2.01.07.08.  ."
+			}
+		}],
+		"adicionalPersonalizadoItens": [{
+			"adicionalPersonalizadoItem": {
+				"identificador": 1,
+				"descricao": "ISS"
+			},
+			"valorTotalAdicionalPersonalizado": 443.529198428438
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 4,
+				"descricao": "IPI"
+			},
+			"valorTotalAdicionalPersonalizado": 568.721168725397
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 5,
+				"descricao": "INSS"
+			},
+			"valorTotalAdicionalPersonalizado": 104.34134357379
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 6,
+				"descricao": "Lucro"
+			},
+			"valorTotalAdicionalPersonalizado": 2217.64599214219
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 7,
+				"descricao": "PIS"
+			},
+			"valorTotalAdicionalPersonalizado": 47.0783006275751
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 8,
+				"descricao": "IR"
+			},
+			"valorTotalAdicionalPersonalizado": 317.531868146482
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 9,
+				"descricao": "COFINS"
+			},
+			"valorTotalAdicionalPersonalizado": 665.293797642658
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 10,
+				"descricao": "Comissão"
+			},
+			"valorTotalAdicionalPersonalizado": 434.755598224123
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 323,
+				"descricao": "ABCDE"
+			},
+			"valorTotalAdicionalPersonalizado": 7342.54908210097
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 334,
+				"descricao": "Perda"
+			},
+			"valorTotalAdicionalPersonalizado": 32.1908763057536
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 335,
+				"descricao": "IRRF"
+			},
+			"valorTotalAdicionalPersonalizado": 64.8369304556355
+		}, {
+			"adicionalPersonalizadoItem": {
+				"identificador": 369,
+				"descricao": "Folha"
+			},
+			"valorTotalAdicionalPersonalizado": 2843.60584362698
+		}]
+	},
+	"medicao": {
+		"codigoLocacao": "003205",
+		"identificadorLocacao": "3206",
+		"dataInicioContrato": "2021-05-20T00:00:00.000",
+		"dataTerminoContrato": "2021-05-31T00:00:00.000",
+		"itens": [{
+			"identificadorItemLocacao": "11621",
+			"identificadorEntidadeOrigem": "11616",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "MATERIAL",
+			"quantidadeDiarias": 1,
+			"quantidadePedida": 15,
+			"produto": {
+				"identificador": "00A0000035",
+				"codigoNome": "000109 - CERTIFICADO TAMANHO A4 PAPEL OFFSET 180G COLORIDO",
+				"codigo": "000109"
+			},
+			"desmembramentos": []
+		}, {
+			"identificadorItemLocacao": "11622",
+			"identificadorEntidadeOrigem": "11617",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "MATERIAL",
+			"quantidadeDiarias": 1,
+			"quantidadePedida": 40,
+			"produto": {
+				"identificador": "00A00001VL",
+				"codigoNome": "002407 - PARAFUSO 08",
+				"codigo": "002407"
+			},
+			"desmembramentos": []
+		}, {
+			"identificadorItemLocacao": "11623",
+			"identificadorEntidadeOrigem": "11615",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "EQUIPAMENTO",
+			"quantidadeDiarias": 1,
+			"quantidadePedida": 1,
+			"produto": {
+				"identificador": "00A000000E",
+				"codigoNome": "000010 - LINK TORQUE; TWH120N; SEXT. 100MM",
+				"codigo": "000010"
+			},
+			"desmembramentos": []
+		}, {
+			"identificadorItemLocacao": "11624",
+			"identificadorEntidadeOrigem": "11618",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "SERVICO",
+			"quantidadeDiarias": 2,
+			"quantidadePedida": 4,
+			"produto": {
+				"identificador": "00A00000WB",
+				"codigoNome": "001137 - PRESTAÇÃO DE SERVIÇO UMS - JOB CARDS",
+				"codigo": "001137"
+			},
+			"desmembramentos": [{
+				"identificadorDocumentoItem": null,
+				"identificadorDesmembramento": 1,
+				"identificadorDesmembramentoOrigem": null,
+				"quantidadeMedida": 0,
+				"quantidadeMaxima": 4,
+				"quantidadeAMedir": 0,
+				"lote": null,
+				"serie": null,
+				"funcionario": null,
+				"datasMedidas": [],
+				"datasAMedir": [],
+				"totalmenteMedido": false
+			}]
+		}, {
+			"identificadorItemLocacao": "11625",
+			"identificadorEntidadeOrigem": "11619",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "EQUIPAMENTO",
+			"quantidadeDiarias": 2,
+			"quantidadePedida": 4,
+			"produto": {
+				"identificador": "00A00002V6",
+				"codigoNome": "003066 - EXTRATOR DE PARAFUSOS",
+				"codigo": "003066"
+			},
+			"desmembramentos": []
+		}, {
+			"identificadorItemLocacao": "11626",
+			"identificadorEntidadeOrigem": "11620",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"categoria": "SERVICO",
+			"quantidadeDiarias": 2,
+			"quantidadePedida": 4,
+			"produto": {
+				"identificador": "00A00000WA",
+				"codigoNome": "001136 - PRESTAÇÃO DE SERVIÇO DE MÁQUINAS E EQUIPAMENTOS PARA PROSPEÇÃO DE PETROLEO",
+				"codigo": "001136"
+			},
+			"desmembramentos": [{
+				"identificadorDocumentoItem": null,
+				"identificadorDesmembramento": 1,
+				"identificadorDesmembramentoOrigem": null,
+				"quantidadeMedida": 0,
+				"quantidadeMaxima": 4,
+				"quantidadeAMedir": 0,
+				"lote": null,
+				"serie": null,
+				"funcionario": null,
+				"datasMedidas": [],
+				"datasAMedir": [],
+				"totalmenteMedido": false
+			}]
+		}],
+		"despesas": [{
+			"identificador": "3280",
+			"identificadorEntidadeOrigem": "3278",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorItem": 75,
+			"valorAdicionalPersonalizado": 14.61,
+			"quantidade": 10,
+			"valorTotal": 896.1,
+			"naturezaLancamento": {
+				"codigo": "000163",
+				"nome": "DESPESAS COM FESTIVIDADES"
+			},
+			"desmembramentos": [{
+				"datasMedidas": [],
+				"datasAMedir": [],
+				"identificadorDesmembramento": 1,
+				"identificadorDesmembramentoOrigem": null,
+				"observacao": null,
+				"quantidadeMedida": 0,
+				"quantidadeMaxima": 10,
+				"quantidadeAMedir": 0,
+				"totalmenteMedido": false
+			}]
+		}, {
+			"identificador": "3281",
+			"identificadorEntidadeOrigem": "3279",
+			"medirPeloOrcado": false,
+			"incluidoNaGestao": false,
+			"valorItem": 31.05,
+			"valorAdicionalPersonalizado": 6.05,
+			"quantidade": 3,
+			"valorTotal": 111.30000000000001,
+			"naturezaLancamento": {
+				"codigo": "000135",
+				"nome": "ADIANTAMENTO DE DESPESAS"
+			},
+			"desmembramentos": [{
+				"datasMedidas": [],
+				"datasAMedir": [],
+				"identificadorDesmembramento": 1,
+				"identificadorDesmembramentoOrigem": null,
+				"observacao": null,
+				"quantidadeMedida": 0,
+				"quantidadeMaxima": 3,
+				"quantidadeAMedir": 0,
+				"totalmenteMedido": false
+			}]
+		}]
+	}
+}

@@ -1,0 +1,45 @@
+{
+    "codigo": "555",
+    "status": "APROVADO",
+    "dataReferencia": "2019-09-03",
+    "descricao": "weberosnnsasa",
+    "cliente": { "identificador": "00A0000008" },
+    "empresa": { "identificador": 1 },
+    "codigoEnderecoCobranca": "01",
+    "codigoEnderecoEntrega": "02",
+    "codigoEnderecoDestinatario": "01",
+    "itens": [
+        {
+            "produto": {
+              "identificador":"00A00000YO"
+            } ,
+            "preco":{
+                "identificador": "00A0000003"
+            },
+            "categoria": "EQUIPAMENTO",
+            "quantidade": 1,
+            "quantidadeDiarias": 1,
+            "valorAcrescimo": 0,
+            "valorDesconto": 0,
+            "valorUnitario": 1541,
+            "dataInicialLocacao": "2019-09-03T00:00:00",
+            "dataFinalLocacao": "2019-09-24T00:00:00",
+            "repasses": []
+        }
+    ],
+    "despesas": [
+        {
+            "identificadorNaturezaLancamento": "00A0000050",
+            "valor": 1
+        }
+    ],
+    "prazos": [
+        {
+            "identificadorPrazo": "00A0000009",
+            "identificadorFormaPagamento": "00A0000002",
+            "dataVencimento": "2019-08-18T00:00:00.000",
+            "valorParcela": 50
+        }
+    ],
+    "observacao": "dadsadsadsadsdsdsaads"
+}

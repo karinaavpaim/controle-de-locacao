@@ -1,0 +1,12 @@
+[{
+    "naturezaLancamento": {
+        "identificador": "123456",
+        "codigo": "000123",
+        "nome": "Compra XPTO",
+        "classificacao": "1.1.1.2",
+        "ativo": true,
+        "tipo": "ANALITICA"
+      },
+      "quantidade": 1,
+      "valorItem": 10.1
+}]

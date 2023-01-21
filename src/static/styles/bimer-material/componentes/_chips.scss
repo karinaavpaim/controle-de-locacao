@@ -1,0 +1,147 @@
+@import './../colors';
+
+.chip-exibicao-status-orcamento {
+  width: 85px;
+  height: 18px;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: $font-family-sans-serif;
+  text-align: center;
+}
+
+.chip-exibicao-status-orcamento.v-chip .v-chip__content {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.chip-color-em-digitacao, .chip-color-em-digitacao.theme--light.v-chip, .chip-color-em-digitacao.theme--light i.v-icon  {
+  background: #009faf;
+  color: $white;
+}
+
+.chip-color-pronto, .chip-color-pronto.theme--light.v-chip, .chip-color-pronto.theme--light i.v-icon{
+  background: #af8eb5;
+  color: $white;
+}
+
+.chip-color-aguardando, .chip-color-aguardando.theme--light.v-chip, .chip-color-aguardando.theme--light i.v-icon{
+  background: #8d8d8d;
+  color: $white;
+}
+
+.chip-color-aprovado, .chip-color-aprovado.theme--light.v-chip, .chip-color-aprovado.theme--light i.v-icon{
+  background: #66bb6a;
+  color: $white;
+}
+
+.chip-color-reprovado, .chip-color-reprovado.theme--light.v-chip, .chip-color-reprovado.theme--light i.v-icon{
+  background: #ef9a9a;
+  color: $white;
+}
+
+.chip-color-revisao, .chip-color-revisao.theme--light.v-chip, .chip-color-revisao.theme--light i.v-icon{
+  background: #ffb74d;
+  color: $black;
+}
+
+.chip-color-liberado, .chip-color-liberado.theme--light.v-chip, .chip-color-liberado.theme--light i.v-icon{
+  background: #4f9a94;
+  color: $white;
+}
+
+.chip-color-execucao, .chip-color-execucao.theme--light.v-chip, .chip-color-execucao.theme--light i.v-icon{
+  background: #65499c;
+  color: $white;
+}
+
+.chip-color-finalizado, .chip-color-finalizado.theme--light.v-chip, .chip-color-finalizado.theme--light i.v-icon{
+  background: #0077c2;
+  color: $white;
+}
+
+.chip-color-cancelado, .chip-color-cancelado.theme--light.v-chip, .chip-color-cancelado.theme--light i.v-icon{
+  background: #ef5350;
+  color: $white;
+}
+
+.chip-color-excluido, .chip-color-excluido.theme--light.v-chip, .chip-color-excluido.theme--light i.v-icon{
+  background: $cor_terciaria1;
+  color: $grey-700;
+}
+
+.chip-exibicao-status-orcamento-em-digitacao.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-em-digitacao;
+}
+
+.chip-exibicao-status-orcamento-aguardando.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-aguardando;
+}
+
+.chip-exibicao-status-orcamento-liberado.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-liberado;
+}
+
+.chip-exibicao-status-orcamento-execucao.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-execucao;
+}
+
+.chip-exibicao-status-orcamento-finalizado.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-finalizado;
+}
+
+.chip-exibicao-status-orcamento-aprovado.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-aprovado;
+}
+
+.chip-exibicao-status-orcamento-reprovado.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-reprovado;
+}
+
+.chip-exibicao-status-orcamento-cancelado.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-cancelado;
+}
+
+.chip-exibicao-status-orcamento-revisao.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-revisao;
+}
+
+.chip-exibicao-status-orcamento-pronto.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-pronto;
+}
+
+.chip-exibicao-status-orcamento-excluido.theme--light.v-chip {
+  @extend .chip-exibicao-status-orcamento, .chip-color-excluido;
+}
+
+.v-icon.tag-status-item-aberto {
+  color: $orange-A400;
+  margin-right: 10px;
+}
+
+.v-icon.tag-status-item-cancelado {
+  color: $red-700;
+  margin-right: 10px;
+}
+
+.v-icon.tag-status-item-atendido-parcialmente {
+  color: $cor_secundaria1;
+  margin-right: 10px;
+}
+
+.v-icon.tag-status-item-atendido-com-corte {
+  color: $cor_primaria;
+  margin-right: 10px;
+}
+
+.v-icon.tag-status-item-atendido-totalmente {
+  color: $green-500;
+  margin-right: 10px;
+}
+
+.v-icon.tag-status-item-movimentado {
+  color: $purple-700;
+  margin-right: 10px;
+}

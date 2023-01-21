@@ -1,0 +1,28 @@
+{
+  "esversion": 6,
+  "indent": 2,     
+  "quotmark": "single",
+  "node": true,
+  "camelcase": true,
+  "curly": true,  
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "maxdepth": 3,
+  "maxerr": 100,
+  "maxparams": 7,
+  "maxstatements": 27,
+  "globals": {
+    "describe": true,
+    "it": true,
+    "before": true,
+    "beforeEach": true,
+    "after": true,
+    "afterEach": true,
+    "inject": true,
+    "expect": true,
+    "async": true,
+    "await": true,
+    "jest": true
+  }
+}

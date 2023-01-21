@@ -1,0 +1,197 @@
+%btn_primary {
+  background-color: $cor_primaria;
+  color: $white;
+  text-transform: initial;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+%btn_primary:disabled {
+  background-color: $btn-disabled-background-color;
+  color: $btn-disabled-color;
+}
+
+%btn_secundary{
+  background-color: $bg_grid;
+  color: $cor_primaria;
+  text-transform: initial;
+  border-radius: 2px;
+  min-width: 115px;
+  font-size: 13px;
+}
+
+%btn_tertiary {
+  background-color: transparent;
+  color: $cor_primaria;
+  text-transform: initial;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+  width: 115px;
+  font-size: 13px;
+}
+
+%btn_quaternary {
+  background-color: $bg_grid;
+  color: $cor_primaria;
+  text-transform: initial;
+  border-radius: 2px;
+  border: 1px solid $cor_primaria;
+  width: 115px;
+  font-size: 13px;
+}
+
+%btn_sem_width {
+  background-color: transparent;
+  color: $cor_primaria;
+  text-transform: initial;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+  font-size: 13px;
+}
+
+%edit_and_delete {
+  background-color: $bg_grid;
+  color: $grey_900;
+  text-transform: initial;
+  border-radius: 2px;
+  width: 85px;
+  font-size: 13px;
+}
+
+.v-btn {
+  margin: 6px 8px;
+  letter-spacing: normal;
+}
+
+.theme--light.v-icon.bg-icon {
+  background-color: #ecf1f6;
+  border-radius: 20px;
+  padding: 4px;
+  margin-top: -3px;
+}
+
+button.btn-primary-icon.theme--light, a.btn-primary-icon.theme--light {
+  @extend %btn_primary;
+}
+
+.btn-primary.width-btn-primary, button.btn-primary.v-btn  {
+  @extend %btn_primary;
+  width: 115px;
+}
+
+button.btn-primary.theme--light, a.btn-primary.theme--light {
+  @extend %btn_primary;
+  width: 115px;
+}
+
+button.btn-primary-icon.theme--light.v-size--default, a.btn-primary-icon.theme--light.v-size--default {
+  @extend %btn_primary;
+  height: 34px;
+  font-size: 13px;
+}
+
+button.btn-primary.v-btn.v-btn--disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+button.btn-secondary.theme--light, a.btn-secondary.theme--light {
+  @extend %btn_secundary; 
+}
+
+button.btn-secondary-icon.theme--light.v-size--default, a.btn-secondary-icon.theme--light.v-size--default {
+  @extend %btn_secundary; 
+  height: 32px;
+  font-size: 13px;
+}
+
+button.btn-tertiary.theme--light, a.btn-tertiary.theme--light {
+  @extend %btn_tertiary;
+}
+
+button.btn-sem-width.theme--light, a.btn-tertiary.theme--light {
+  @extend %btn_sem_width;
+}
+
+button.btn-tertiary-icon.theme--light.v-size--default, a.btn-tertiary-icon.theme--light.v-size--default {
+  @extend %btn_tertiary;
+  height: 28px;
+}
+
+button.btn-quaternary.theme--light, a.btn-quaternary.theme--light {
+  @extend %btn_quaternary;
+}
+
+button.btn-quaternary-icon.theme--light.v-size--default, a.btn-quaternary-icon.theme--light.v-size--default {
+  @extend %btn_quaternary;
+  height: 28px;
+  font-size: 13px;
+}
+
+button.btn-quaternary.theme--light:disabled {
+  border: 1px solid #e6e6e6;
+  background-color: $bg_grid;
+}
+
+button.btn-edit-delete.theme--light, a.btn-edit-delete.theme--light {
+  @extend %edit_and_delete;
+}
+
+button.btn-edit-delete-icon.theme--light.v-size--default, a.btn-edit-delete-icon.theme--light.v-size--default {
+  @extend %edit_and_delete;
+  height: 28px;
+}
+
+button.font-weight-normal, a.font-weight-normal {
+  font-weight: normal;
+}
+
+.width-icon .v-icon.material-icons {
+  margin-right: 5px;
+  font-size: 18px;
+  transform: rotate(0.03deg);
+}
+
+.width-icon {
+  margin: 0px 8px;
+}
+
+.btn-secondary.align-icon-right.v-btn {
+  padding: 0 10px 0 20px;
+}
+
+.btn-secondary.align-icon-left.v-btn {
+  padding: 0 20px 0 10px;
+}
+
+.size-icon-filter {
+  margin-top: 2px;
+}
+
+button.actions-btn.v-btn.v-btn--contained.theme--light {
+  background-color: $white;
+  color: $cor_primaria;
+  text-transform: initial;
+  border-radius: 2px;
+  border: 1px solid $cor_primaria;
+  font-size: 13px;
+}
+
+button.actions-btn.v-btn.v-btn--contained.theme--light:disabled {
+  border: 1px solid #e6e6e6;
+}
+
+.theme--light.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: $bg_grid!important;
+  border: 1px solid #e6e6e6;
+}
+
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: $white;
+}
+
+.margem-zero {
+  margin: 0;
+}

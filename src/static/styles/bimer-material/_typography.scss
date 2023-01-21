@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p {
+  font-size: 13px;
+  margin: 0;
+}
+
+a {
+  color: $cor_primaria;
+}
+
+.primary--text {
+  color: $cor_primaria;
+  caret-color: $cor_primaria;
+}
+
+.v-card__title h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.theme--light.v-list-item .v-list-item__mask{
+  background: $blue-200;
+  color: $black;
+}
+
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}

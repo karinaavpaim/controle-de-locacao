@@ -1,0 +1,10 @@
+{
+    "cliente": {
+        "nome":"Alterdata",
+        "codigo":"900000"
+    },
+    "descricao":"Orçamento XPTO",
+    "dataDeReferencia":"01/01/2000",
+    "pessoaDeContatoNoCliente":"Weberson",
+    "status":"Em digitação"
+}

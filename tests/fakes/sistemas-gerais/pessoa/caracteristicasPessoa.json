@@ -1,0 +1,23 @@
+[
+    {
+        "Classificacao": "30.03.009",
+        "Codigo": "001173",
+        "DataAtribuicao": "/Date(1469206961203-0300)/",
+        "Identificador": "00100001TQ",
+        "Imagem": null,
+        "Nome": "Clientes Karoo Site",
+        "Observacao": "Está característica está atribuída a todos os clientes que adquiriram o Karoo pelo site.",
+        "VisivelCRM": false
+    },
+    {
+        "Classificacao": "10.03.002",
+        "Codigo": "000898",
+        "DataAtribuicao": "/Date(1432313400000-0300)/",
+        "Identificador": "00100001A7",
+        "Imagem": null,
+        "Nome": "FILIAL",
+        "Observacao": "",
+        "VisivelCRM": true
+    }
+
+]

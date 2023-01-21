@@ -1,0 +1,6 @@
+.barra-progresso-texto-secundario-container {
+  width: 100%;
+  position: absolute;
+  color: #000;
+  clip-path: inset(0 0 0 var(--porcentagem-progresso))
+}

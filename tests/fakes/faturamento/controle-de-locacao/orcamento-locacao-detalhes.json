@@ -1,0 +1,904 @@
+{
+  "codigo": "000993",
+  "identificador": 146,
+  "dataReferencia": "2019-10-15T00:00:00.000",
+  "dataEmissao": "2019-10-15T10:27:51.013",
+  "dataInicioContrato": "2019-10-15T00:00:00.000",
+  "dataTerminoContrato": "2019-10-31T00:00:00.000",
+  "codigoEnderecoEntrega": "01",
+  "codigoEnderecoCobranca": "01",
+  "codigoEnderecoDestinatario": "01",
+  "descricao": "Orçamento full",
+  "nomePessoaDeContatoCliente": "Weberson ;)",
+  "emailPessoaDeContatoCliente": null,
+  "telefonePessoaDeContatoCliente": null,
+  "observacao": "Criado por weberson.dsn.erp",
+  "status": "EM_DIGITACAO",
+  "revisao":2,
+  "totalEquipamentos": 37685.02575,
+  "totalServicos": 18165,
+  "totalMateriais": 4112.95,
+  "totalDespesas": 1800,
+  "totalOrcamento": 61812.97575,
+  "despesas": [
+    {
+      "identificador":"1",
+      "naturezaLancamento": {
+        "codigo": "000087",
+        "identificador": "00A0000038",
+        "nome": "ALUGUEL DE EQUIPAMENTOS DE COMUNICAÇÃO"
+      },
+      "valorItem": 1050,
+      "quantidade": 1,
+      "valorTotal": 1050
+    },
+    {
+      "identificador":"2",
+      "naturezaLancamento": {
+        "codigo": "000139",
+        "identificador": "00A0000050",
+        "nome": "ALUGUEL DE MAQS E EQUIPAMENTOS"
+      },
+      "valorItem": 750,
+      "quantidade": 1,
+      "valorTotal": 750
+    }
+  ],
+  "cliente": {
+    "codigo": "000012",
+    "codigoNome": "000012 - LKL INDUSTRIA, COMERCIO E SERVICOS EIRELI",
+    "CPFouCNPJ": "05.262.906/0001-06",
+    "categorias": [
+      {
+        "identificador": "0000000005",
+        "nome": "Cliente"
+      },
+      {
+        "identificador": "0000000006",
+        "nome": "Fornecedor"
+      }
+    ],
+    "identificador": "00A000000P",
+    "nome": "LKL INDUSTRIA, COMERCIO E SERVICOS EIRELI",
+    "nomeCurto": "LKL INSDUSTRIA",
+    "tipoPessoa": 1,
+    "enderecos": [
+      {
+        "ativo": true,
+        "bairro": {
+          "codigo": "007786",
+          "identificador": "00A0000605",
+          "nome": "CAVALEIROS"
+        },
+        "cep": "27920-360",
+        "cidade": {
+          "codigo": "006811",
+          "identificador": "00A0000598",
+          "nome": "MACAE",
+          "UF": {
+            "nome": "Rio de Janeiro",
+            "sigla": "RJ"
+          }
+        },
+        "tipoNomeNumeroComplementoLogradouro":"ROD AMARAL PEIXOTO, S/N - QUADRA COM LOTE 40",
+        "bairroCidadeUnidadeFederativaCep":"MAR DO NORTE - RIO DAS OSTRAS - RJ - 28898-001",
+        "codigo": "01",
+        "complemento": "SLJ PARTE",
+        "inscricaoEstadual": "77.648.305",
+        "inscricaoMunicipal": "76.555.556",
+        "nomeLogradouro": "NOSSA SENHORA DA GLÓRIA",
+        "numeroLogradouro": "2987",
+        "observacao": "",
+        "tiposEndereco": [
+          "PRINCIPAL",
+          "ENTREGA",
+          "COBRANCA",
+          "COMERCIAL",
+          "CORRESPONDENCIA"
+        ],
+        "pessoasDeContato": [
+          {
+            "contatoPrincipal": true,
+            "contatos": [
+              {
+                "descricao": "22 2760 1109",
+                "tipo": "TELEFONE"
+              }
+            ],
+            "identificador": "00A00000DZ",
+            "nome": "Fulano de tal",
+            "telefoneFixo": "22 2760 1109",
+            "telefoneCelular": "99 9 9999 9999",
+            "email": "fulano@fulano.com"
+          }
+        ]
+      }
+    ]
+  },
+  "empresa": {
+    "identificador": "1",
+    "codigo": "1",
+    "nome": "LKL OLEO E GAS COMERCIO, SERV E REP EIRELLI",
+    "CNPJ": "19.696.291/0001-22",
+    "nomeCurto": "LKL OLEO E GAS",
+    "endereco": {
+      "ativo": true,
+      "bairro": {
+        "codigo": "021373",
+        "identificador": "00A0000GHT",
+        "nome": "MAR DO NORTE"
+      },
+      "bairroCidadeUnidadeFederativaCep": "MAR DO NORTE - RIO DAS OSTRAS - RJ - 28898-001",
+      "cep": "28898-001",
+      "cidade": {
+        "codigo": "006889",
+        "codigoDDD": "",
+        "codigoIBGE": "3304524",
+        "identificador": "00A00005BE",
+        "nome": "RIO DAS OSTRAS",
+        "UF": {
+          "codigoIBGE": "33",
+          "nome": "Rio de Janeiro",
+          "sigla": "RJ"
+        }
+      },
+      "codigo": "01",
+      "codigoSuframa": "",
+      "complemento": "QUADRA COM LOTE 40",
+      "inscricaoEstadual": "86.639.335",
+      "inscricaoMunicipal": "12.345.335",
+      "latitude": 0,
+      "longitude": 0,
+      "nomeLogradouro": "AMARAL PEIXOTO",
+      "numeroLogradouro": "S/N",
+      "observacao": "",
+      "pessoasDeContato": [
+        {
+          "contatoPrincipal": true,
+          "contatos": [
+            {
+              "descricao": "22 2760 1109",
+              "tipo": "TELEFONE"
+            }
+          ],
+          "identificador": "00A00000DZ",
+          "nome": "Fulano de tal",
+          "telefoneFixo": "22 2760 1109",
+          "telefoneCelular": "99 9 9999 9999",
+          "email": "fulano@fulano.com"
+        }
+      ],
+      "tipoNomeNumeroComplementoLogradouro": "ROD AMARAL PEIXOTO, S/N - QUADRA COM LOTE 40",
+      "tiposEndereco": [
+        "PRINCIPAL",
+        "ENTREGA",
+        "COBRANCA",
+        "COMERCIAL",
+        "CORRESPONDENCIA"
+      ]
+    }
+  },
+  "itens": [
+    {
+      "identificador": 217,
+      "produto": {
+        "identificador": "00A00000Q4",
+        "nome": "ALICATE CRAV.TERM.ELET.; Ø35MM-Ø400MM;",
+        "codigo": "000920"
+      },
+      "categoria": "EQUIPAMENTO",
+      "quantidade": 3,
+      "quantidadeDiarias": 1,
+      "valorUnitario": 9244.48,
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "dataInicialLocacao": "2019-10-15T00:00:00.000",
+      "dataFinalLocacao": "2019-10-24T00:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 216,
+      "produto": {
+        "identificador": "00A00000Q1",
+        "nome": "ALICATE CRAV.TERM.ELET.; Ø10MM-Ø185MM;",
+        "codigo": "000917"
+      },
+      "categoria": "EQUIPAMENTO",
+      "quantidade": 1,
+      "quantidadeDiarias": 2,
+      "valorUnitario": 4731.5,
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "dataInicialLocacao": "2019-10-15T00:00:00.000",
+      "dataFinalLocacao": "2019-10-24T00:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 215,
+      "produto": {
+        "identificador": "00A000000E",
+        "nome": "LINK TORQUE; TWH120N; SEXT. 100MM",
+        "codigo": "000010"
+      },
+      "categoria": "EQUIPAMENTO",
+      "quantidade": 1,
+      "quantidadeDiarias": 5,
+      "valorUnitario": 87.71715,
+      "valorAcrescimo": 100,
+      "valorDesconto": 50,
+      "dataInicialLocacao": "2019-10-15T00:00:00.000",
+      "dataFinalLocacao": "2019-10-31T00:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 214,
+      "produto": {
+        "identificador": "00A00000HO",
+        "nome": "BOMBA PORT. MANUAL 2 VIAS;CILINDRO SENT.ÚNICO; 1L",
+        "codigo": "000619"
+      },
+      "categoria": "MATERIAL",
+      "quantidade": 1,
+      "quantidadeDiarias": 1,
+      "valorUnitario": 1389.02,
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "dataInicialLocacao": "3938-12-31T19:00:00.000",
+      "dataFinalLocacao": "3938-12-31T19:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 213,
+      "produto": {
+        "identificador": "00A00000WC",
+        "nome": "SERVIÇOS DE MANUTENÇÃO EM INFORMÁTICA",
+        "codigo": "001138"
+      },
+      "categoria": "SERVICO",
+      "quantidade": 12,
+      "quantidadeDiarias": 6,
+      "valorUnitario": 250,
+      "valorAcrescimo": 0,
+      "valorDesconto": 250,
+      "dataInicialLocacao": "2019-10-16T00:00:00.000",
+      "dataFinalLocacao": "2019-10-30T00:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 212,
+      "produto": {
+        "identificador": "00A00000HS",
+        "nome": "BOMBA PORT.MANUAL 2 VIAS;CILINDRO SENT.ÚNICO;2,3L",
+        "codigo": "000623"
+      },
+      "categoria": "MATERIAL",
+      "quantidade": 1,
+      "quantidadeDiarias": 1,
+      "valorUnitario": 2723.93,
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "dataInicialLocacao": "3938-12-31T19:00:00.000",
+      "dataFinalLocacao": "3938-12-31T19:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identificador": 211,
+      "produto": {
+        "identificador": "00A00000WA",
+        "nome": "PRESTAÇÃO DE SERVIÇO",
+        "codigo": "001136"
+      },
+      "categoria": "SERVICO",
+      "quantidade": 2,
+      "quantidadeDiarias": 2,
+      "valorUnitario": 125,
+      "valorAcrescimo": 15,
+      "valorDesconto": 100,
+      "dataInicialLocacao": "2019-10-15T00:00:00.000",
+      "dataFinalLocacao": "2019-10-23T00:00:00.000",
+      "repasses": [
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 5,
+          "pessoa": {
+            "identificador": "00A000004K",
+            "codigo": "000135",
+            "nome": "ALBERTO CARLOS ALVES CARVALHO",
+            "nomeCurto": "ALBERTO",
+            "CPFouCNPJ": "869.918.417-49",
+            "categorias": [
+              {
+                "identificador": "0000000004",
+                "nome": "Representante"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 3,
+          "aliquotaFaturamento": 0,
+          "pessoa": {
+            "identificador": "00A000007D",
+            "codigo": "000220",
+            "nome": "ALEXANDRE DE ARAGAO MONTEIRO",
+            "nomeCurto": "",
+            "CPFouCNPJ": "010.970.957-89",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 2,
+          "aliquotaFaturamento": 11,
+          "pessoa": {
+            "identificador": "00A000000S",
+            "codigo": "000014",
+            "nome": "CAMILLA DOS SANTOS PINTO VARELLA",
+            "nomeCurto": "CAMILLA SANTOS",
+            "CPFouCNPJ": "134.578.417-13",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 5,
+          "aliquotaFaturamento": 15,
+          "pessoa": {
+            "identificador": "00A00000BX",
+            "codigo": "000364",
+            "nome": "CARLOS ALBERTO DE ALMEIDA RANGEL",
+            "nomeCurto": "",
+            "CPFouCNPJ": "017.666.687-71",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        },
+        {
+          "aliquotaDuplicata": 0,
+          "aliquotaFaturamento": 3,
+          "pessoa": {
+            "identificador": "00A000007C",
+            "codigo": "000219",
+            "nome": "ALEXANDRE FINTELMAN",
+            "nomeCurto": "",
+            "CPFouCNPJ": "069.233.417-36",
+            "categorias": [
+              {
+                "identificador": "000000000R",
+                "nome": "Funcionario"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

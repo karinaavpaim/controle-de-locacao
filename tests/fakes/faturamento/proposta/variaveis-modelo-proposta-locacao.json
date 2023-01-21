@@ -1,0 +1,22 @@
+[
+  {
+    "identificador": "1",
+    "nome": "variavel_teste_01",
+    "conteudo": "valorvalorvalor"
+  },
+  {
+    "identificador": "2",
+    "nome": "variavel_teste_02",
+    "conteudo": "valorvalorvalor"
+  },
+  {
+    "identificador": "3",
+    "nome": "variavel_teste_03",
+    "conteudo": "XYZ"
+  },
+  {
+    "identificador": "4",
+    "nome": "variavel_teste_04",
+    "conteudo": "XYZ"
+  }
+]

@@ -1,0 +1,15 @@
+{
+    "categoria":"EQUIPAMENTO",
+    "identificador": "123456",
+    "nome": "item XPTO",
+    "codigoNome": "0002",
+    "valorUnitario": 150,
+    "quantidade": 1,
+    "diarias": 1,
+    "periodoInicial": "01/01/2000",
+    "periodoFinal": "02/01/2000",
+    "valorAcrescimo": 10,
+    "valorDesconto": 5,
+    "valorTotalItem": "R$ 145,00",
+    "repasses": []
+}

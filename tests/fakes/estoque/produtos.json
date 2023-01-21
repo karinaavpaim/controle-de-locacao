@@ -1,0 +1,14 @@
+[
+    {
+      "identificador": "123456",
+      "nome": "Produto Teste 01",
+      "codigo": "123456",
+      "codigoNome":"123456 - Produto Teste 01"
+    },
+    {
+      "identificador": "654321",
+      "nome": "Produto Teste 02",
+      "codigo": "654321",
+      "codigoNome":"654321 - Produto Teste 02"
+    }
+]

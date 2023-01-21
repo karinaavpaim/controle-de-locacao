@@ -1,0 +1,185 @@
+{
+  "cliente": {
+    "CPFouCNPJ": "01.505.705/0003-95",
+    "codigo": "000006",
+    "identificador": "00A000000J",
+    "nome": "ONESUBSEA DO BRASIL SERVICOS SUBMARINOS LTDA",
+    "nomeCurto": "ONESUBSEA"
+  },
+  "codigoLocacao": "000191",
+  "dataReferencia": "2020-07-01T00:00:00.000",
+  "descricao": "testar medição de serviço",
+  "identificadorLocacao": "192",
+  "itens": [
+    {
+      "atendidoComCorte": false,
+      "categoria": "SERVICO",
+      "dataFinalLocacao": "2020-07-31T00:00:00.000",
+      "dataInicialLocacao": "2020-07-01T00:00:00.000",
+      "descricao": "",
+      "identificadorItemLocacao": "632",
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "valorUnitario": 3000,
+      "liberacoes": [
+        {
+          "identificadorRequisicaoItemBaixa": "00A00000T5",
+          "lote": null,
+          "quantidadeAExpedir": 0,
+          "quantidadeExpedida": 0,
+          "quantidadeLiberada": 1,
+          "serie": {
+            "codigo": "LKL-1013",
+            "dataValidade": null,
+            "identificador": "00A000036I",
+            "observacao": "",
+            "tipo": "SERIE"
+          }
+        }
+      ],
+      "produto": {
+        "identificador": "00A00000WC",
+        "nome": "MATERIAL A",
+        "codigo": "001138"
+      },
+      "quantidade": 5,
+      "quantidadeRequisitada": 5
+    },
+    {
+      "atendidoComCorte": false,
+      "categoria": "MATERIAL",
+      "dataFinalLocacao": "2020-07-31T00:00:00.000",
+      "dataInicialLocacao": "2020-07-01T00:00:00.000",
+      "descricao": "",
+      "identificadorItemLocacao": "632",
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "valorUnitario": 10,
+      "liberacoes": [
+        {
+          "identificadorRequisicaoItemBaixa": "00A00000T5",
+          "lote": null,
+          "quantidadeAExpedir": 0,
+          "quantidadeExpedida": 3,
+          "quantidadeLiberada": 5,
+          "serie": {
+            "codigo": "LKL-1013",
+            "dataValidade": null,
+            "identificador": "00A000036I",
+            "observacao": "",
+            "tipo": "SERIE"
+          }
+        }
+      ],
+      "produto": {
+        "identificador": "00A00000WC",
+        "nome": "MATERIAL B",
+        "codigo": "001138"
+      },
+      "quantidade": 2,
+      "quantidadeRequisitada": 2
+    },
+    {
+      "atendidoComCorte": false,
+      "categoria": "MATERIAL",
+      "dataFinalLocacao": "2020-07-31T00:00:00.000",
+      "dataInicialLocacao": "2020-07-01T00:00:00.000",
+      "descricao": "",
+      "identificadorItemLocacao": "632",
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "valorUnitario": 22.50,
+      "liberacoes": [
+        {
+          "identificadorRequisicaoItemBaixa": "00A00000T5",
+          "lote": null,
+          "quantidadeAExpedir": 0,
+          "quantidadeExpedida": 2,
+          "quantidadeLiberada": 2,
+          "serie": {
+            "codigo": "LKL-1013",
+            "dataValidade": null,
+            "identificador": "00A000036I",
+            "observacao": "",
+            "tipo": "SERIE"
+          }
+        }
+      ],
+      "produto": {
+        "identificador": "00A00000WC",
+        "nome": "EQUIPAMENTO A",
+        "codigo": "001138"
+      },
+      "quantidade": 4,
+      "quantidadeRequisitada": 4
+    },
+    {
+      "atendidoComCorte": false,
+      "categoria": "EQUIPAMENTO",
+      "dataFinalLocacao": "2020-07-31T00:00:00.000",
+      "dataInicialLocacao": "2020-07-01T00:00:00.000",
+      "descricao": "",
+      "identificadorItemLocacao": "639",
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "valorUnitario": 14,
+      "liberacoes": [
+        {
+          "identificadorRequisicaoItemBaixa": "00A00000T4",
+          "lote": null,
+          "quantidadeAExpedir": 0,
+          "quantidadeExpedida": 1,
+          "quantidadeLiberada": 4,
+          "serie": {
+            "codigo": "LKL-1013",
+            "dataValidade": null,
+            "identificador": "00A000036I",
+            "observacao": "↵",
+            "tipo": "SERIE"
+          }
+        }
+      ],
+      "produto": {
+        "identificador": "00A000000E",
+        "nome": "LINK TORQUE; TWH120N; SEXT. 100MM",
+        "codigo": "000010"
+      },
+      "quantidade": 1,
+      "quantidadeRequisitada": 1
+    },
+    {
+      "atendidoComCorte": false,
+      "categoria": "EQUIPAMENTO",
+      "dataFinalLocacao": "2020-07-31T00:00:00.000",
+      "dataInicialLocacao": "2020-07-01T00:00:00.000",
+      "descricao": "",
+      "identificadorItemLocacao": "639",
+      "valorAcrescimo": 0,
+      "valorDesconto": 0,
+      "valorUnitario": 30,
+      "liberacoes": [
+        {
+          "identificadorRequisicaoItemBaixa": "00A00000T4",
+          "lote": null,
+          "quantidadeAExpedir": 0,
+          "quantidadeExpedida": 1,
+          "quantidadeLiberada": 1,
+          "serie": {
+            "codigo": "LKL-1013",
+            "dataValidade": null,
+            "identificador": "00A000036I",
+            "observacao": "↵",
+            "tipo": "SERIE"
+          }
+        }
+      ],
+      "produto": {
+        "identificador": "00A000000E",
+        "nome": "LINK TORQUE; TWH120N; SEXT. 100MM",
+        "codigo": "000010"
+      },
+      "quantidade": 1,
+      "quantidadeRequisitada": 1
+    }
+  ]
+}

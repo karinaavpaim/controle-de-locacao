@@ -1,0 +1,22 @@
+.v-breadcrumbs {
+  padding: 10px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.v-breadcrumbs.breadcrumb-alinhamento {
+  padding-left: 0px;
+}
+
+.v-breadcrumbs--large li {
+  font-size: 14px;
+}
+
+.v-breadcrumbs--large li.breadcrumb-atual {
+  font-size: 18px;
+  color: #212121;
+}
+
+.v-breadcrumbs li:nth-child(even) {
+  padding: 0 3px;
+}

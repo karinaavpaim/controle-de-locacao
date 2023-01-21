@@ -1,0 +1,24 @@
+.input-pesquisar.v-text-field .v-input__control .v-input__slot .v-text-field__slot > input {
+  padding: 4px 0;
+}
+
+.v-input, .v-list__tile {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+div.tipo-numero input{
+  text-align: right
+}
+
+label.v-label.theme--light {
+  font-size: 14px;
+}
+
+label.v-label.v-label--active.theme--light.primary--text {
+  font-size: 16px;
+}
+
+.v-messages__message {
+  text-align: right;
+}

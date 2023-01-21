@@ -1,0 +1,49 @@
+[  
+    {  
+        "ativo":true,
+        "codigo":"04",
+        "tipoNomeNumeroComplementoLogradouro":"TRAVE MARIA DE LOURDES SILVA HAUBRICH, 25",
+        "bairroCidadeUnidadeFederativaCep":"CASTRIOTO - PETROPOLIS - RJ - 25665-300",
+        "tiposEndereco":[  
+        "RESIDENCIAL",
+        "COMERCIAL"
+        ]
+    },
+    {  
+        "ativo":true,
+        "codigo":"02",
+        "tipoNomeNumeroComplementoLogradouro":"RUA RUA DO IMPERADOR, 6",
+        "bairroCidadeUnidadeFederativaCep":"CENTRO - PETROPOLIS - RJ - 25620-000",
+        "tiposEndereco":[  
+        "ENTREGA",
+        "RESIDENCIAL",
+        "COMERCIAL",
+        "CORRESPONDENCIA"
+        ]
+    },
+    {  
+        "ativo":true,
+        "codigo":"03",
+        "tipoNomeNumeroComplementoLogradouro":"RUA DIAS DE OLIVEIRA, 397",
+        "bairroCidadeUnidadeFederativaCep":"DUARTE SILVEIRA - PETROPOLIS - RJ - 25665-400",
+        "tiposEndereco":[  
+        "ENTREGA",
+        "RESIDENCIAL",
+        "COMERCIAL",
+        "CORRESPONDENCIA"
+        ]
+    },
+    {  
+        "ativo":true,
+        "codigo":"01",
+        "tipoNomeNumeroComplementoLogradouro":"ROD AMARAL PEIXOTO, S/N - QUADRA COM LOTE 40",
+        "bairroCidadeUnidadeFederativaCep":"MAR DO NORTE - RIO DAS OSTRAS - RJ - 28898-001",
+        "tiposEndereco":[  
+        "PRINCIPAL",
+        "ENTREGA",
+        "COBRANCA",
+        "COMERCIAL",
+        "CORRESPONDENCIA"
+        ]
+    }
+]
